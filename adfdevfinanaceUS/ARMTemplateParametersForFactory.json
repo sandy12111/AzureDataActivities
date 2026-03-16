@@ -1,0 +1,282 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevfinanaceUS"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage10_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage11_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage12_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage5_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage6_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage7_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage8_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage9_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_BlobExcel_connectionString": {
+			"value": ""
+		},
+		"LS_CSV_PARAQUET_accountKey": {
+			"value": ""
+		},
+		"LS_FILTER__CSV_accountKey": {
+			"value": ""
+		},
+		"LS_FilterCSV_accountKey": {
+			"value": ""
+		},
+		"LS_METADATA_SQL_password": {
+			"value": ""
+		},
+		"LS_PARAQUET_accountKey": {
+			"value": ""
+		},
+		"LS_VIEWCSV_accountKey": {
+			"value": ""
+		},
+		"LS__SQLLOOKUP_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"SqlServer3_password": {
+			"value": ""
+		},
+		"SqlServer4_password": {
+			"value": ""
+		},
+		"SqlServer5_password": {
+			"value": ""
+		},
+		"SqlServer6_password": {
+			"value": ""
+		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
+		"ls_adls_accountKey": {
+			"value": ""
+		},
+		"ls_adls_adls_accountKey": {
+			"value": ""
+		},
+		"ls_bulk_accountKey": {
+			"value": ""
+		},
+		"ls_bulk01_accountKey": {
+			"value": ""
+		},
+		"ls_rest_paraquet01_accountKey": {
+			"value": ""
+		},
+		"ls_sql_password": {
+			"value": ""
+		},
+		"ls_sql_excel_accountKey": {
+			"value": ""
+		},
+		"ls_sql_paraquet_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net"
+		},
+		"AzureDataLakeStorage10_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage11_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage12_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage5_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net"
+		},
+		"AzureDataLakeStorage6_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage7_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage8_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage9_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"LS_ADLS_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"LS_CSV_PARAQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"LS_FILTER__CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"LS_FilterCSV_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"LS_METADATA_SQL_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS01"
+		},
+		"LS_METADATA_SQL_properties_typeProperties_database": {
+			"value": "Practice"
+		},
+		"LS_METADATA_SQL_properties_typeProperties_userName": {
+			"value": "adfuser"
+		},
+		"LS_PARAQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net"
+		},
+		"LS_VIEWCSV_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"LS__SQLLOOKUP_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS01"
+		},
+		"LS__SQLLOOKUP_properties_typeProperties_database": {
+			"value": "Practice"
+		},
+		"LS__SQLLOOKUP_properties_typeProperties_userName": {
+			"value": "adfuser"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS01"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "Practice"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "adfuser"
+		},
+		"SqlServer2_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS01"
+		},
+		"SqlServer2_properties_typeProperties_database": {
+			"value": "Practice"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "adfuser"
+		},
+		"SqlServer3_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS01"
+		},
+		"SqlServer3_properties_typeProperties_database": {
+			"value": "Practice"
+		},
+		"SqlServer3_properties_typeProperties_userName": {
+			"value": "adfuser"
+		},
+		"SqlServer4_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS01"
+		},
+		"SqlServer4_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"SqlServer4_properties_typeProperties_userName": {
+			"value": "adfuser"
+		},
+		"SqlServer5_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS01"
+		},
+		"SqlServer5_properties_typeProperties_database": {
+			"value": "Practice"
+		},
+		"SqlServer5_properties_typeProperties_userName": {
+			"value": "adfuser"
+		},
+		"SqlServer6_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS01"
+		},
+		"SqlServer6_properties_typeProperties_database": {
+			"value": "Practice"
+		},
+		"SqlServer6_properties_typeProperties_userName": {
+			"value": "adfuser"
+		},
+		"ls_adls_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"ls_adls_adls_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"ls_bulk_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"ls_bulk01_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"ls_rest_paraquet_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/5yDVOt/data"
+		},
+		"ls_rest_paraquet01_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"ls_sql_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS01"
+		},
+		"ls_sql_properties_typeProperties_database": {
+			"value": "Practice"
+		},
+		"ls_sql_properties_typeProperties_userName": {
+			"value": "adfuser"
+		},
+		"ls_sql_excel_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		},
+		"ls_sql_paraquet_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanaceus.dfs.core.windows.net/"
+		}
+	}
+}
