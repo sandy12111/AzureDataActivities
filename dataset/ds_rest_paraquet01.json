@@ -1,0 +1,29 @@
+{
+	"name": "ds_rest_paraquet01",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_rest_paraquet01",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "destination"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "SIC_Code",
+				"type": "UTF8"
+			},
+			{
+				"name": "Description",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

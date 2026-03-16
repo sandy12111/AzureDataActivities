@@ -1,0 +1,30 @@
+{
+	"name": "Parquet3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage10",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "industry_sic1.parquet",
+				"fileSystem": "destination"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "SIC_Code",
+				"type": "UTF8"
+			},
+			{
+				"name": "Description",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
